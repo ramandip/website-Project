@@ -22,31 +22,16 @@ License: Creative Commons Attribution
     <form id="form1" runat="server">
     <div id="container">
     <header>
-    	<h1><a href="index.aspx#Home">International <span>Student Guide</span> System</a></h1>
+    	<h1><a href="index.aspx">International <span>Student Guide</span> System</a></h1>
         <%--<h2>your website slogan here</h2>--%>
     </header>
     <nav>
-
-
-
     	<ul>
         	<li class="start selected"><a href="index.aspx">Home</a></li>
-               <li><a href="accomodation.aspx#">Accommodation</a></li>
-                        <li><a href="transportation.aspx#">Transportation</a></li>
-           <!--<li> <asp:DropDownList ID="DropDownList1" runat="server" >
-    <asp:ListItem>abc</asp:ListItem>
-    <asp:ListItem>def</asp:ListItem>
-    <asp:ListItem>ghi</asp:ListItem>
-    <asp:ListItem>jkl</asp:ListItem>
-        </asp:DropDownList></li>-->
-                        <li><a href="jobs.aspx#">Jobs</a></li>
-                        <li><a href="foodareas.aspx#">Food</a></li>
-                        
-                        <li><a href="healthcarecenters.aspx#">Health Centres</a></li>
-                        <li><a href="govtoffices.aspx#">Government</a></li>
-                        <li><a href="immigrationissues.aspx#">Immigration</a></li></ul>
-   
-            
+            <li class=""><a href="Service.aspx">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li class="end"><a href="#">Contact</a></li>
         </ul>
     </nav>
 
@@ -61,7 +46,7 @@ License: Creative Commons Attribution
 	    <article>
 				
 			
-			<h2 id="Home">Introduction to international student guide system</h2>
+			<h2>Introduction to international student guide system</h2>
 			<%--<div class="article-info">Posted on <time datetime="2016-02-24">24 Feb</time> by <a href="#" rel="author">Joe Bloggs</a></div>
  --%>
             <p>Welcome to our website, it is basically an international student guide system in which a user can get information regarding colleges, accomodation, transport services etc. all in one website with links to websites that provide information about these things.</p>	
@@ -82,8 +67,11 @@ License: Creative Commons Attribution
 
 		<a href="Service.aspx" class="button">Read more</a>
 		<a href="#" class="button">Comments</a>
-
-
+            </br>
+            </br>
+            </br>
+		<a href="Loginform.aspx" class="button">Login</a>
+            <a href="Registerform.aspx" class="button">Register</a>
 		
 		</article>
 	
@@ -111,16 +99,16 @@ License: Creative Commons Attribution
                <li>
                     <h4>Categories</h4>
                     <ul>
-                         <li><a href="index.aspx#Home" >Home Page</a></li>
-      
-                        <li><a href="accomodation.aspx#Land">Accommodation</a></li>
-                        <li><a href="transportation.aspx#Land">Transportation (Bus, Subways etc.)</a></li>
-                        <li><a href="jobs.aspx#Land">Jobs</a></li>
-                        <li><a href="foodareas.aspx#Land">Food areas (Restaurants, Hotels)</a></li>
-                        <li><a href="religiousinstitutes.aspx#Land">Religious Institutes</a></li>
-                        <li><a href="healthcarecenters.aspx#Land">Health care centres</a></li>
-                        <li><a href="govtoffices.aspx#Land">Government Offices</a></li>
-                        <li><a href="immigrationissues.aspx#Land">Immigration Issues</a></li>
+                         <li><a href="index.aspx" >Home Page</a></li>
+                       <li><a href="Service.aspx">Service</a></li>
+                        <li><a href="accomodation.aspx">Accommodation</a></li>
+                        <li><a href="transportation.aspx">Transportation (Bus, Subways etc.)</a></li>
+                        <li><a href="jobs.aspx">Jobs</a></li>
+                        <li><a href="foodareas.aspx">Food areas (Restaurants, Hotels)</a></li>
+                        <li><a href="religiousinstitutes.aspx">Religious Institutes</a></li>
+                        <li><a href="healthcarecenters.aspx">Health care centres</a></li>
+                        <li><a href="govtoffices.aspx">Government Offices</a></li>
+                        <li><a href="immigrationissues.aspx">Immigration Issues</a></li>
 
 
                     </ul>
@@ -167,20 +155,20 @@ License: Creative Commons Attribution
         <div class="footer-content">
             <ul>
             	<li><h4>Health and Care</h4></li>
-                <li><a href="http://www.canadian-healthcare.org/" target="_blank">Canadian health care</a></li>
-                <li><a href="http://www.cic.gc.ca/english/newcomers/after-health.asp" target="_blank">Health care in Canada</a></li>
-                <li><a href="http://www.kgh.on.ca/#" target="_blank">Kingston General Hospital</a></li>
-                <li><a href="https://myhealth.alberta.ca/Pages/default.aspx" target="_blank">My Health </a></li>
-                <li><a href="https://en.wikipedia.org/wiki/List_of_hospitals_in_Canada" target="_blank">List of Hospitals</a></li>
+                <li><a href="http://www.canadian-healthcare.org/">Canadian health care</a></li>
+                <li><a href="http://www.cic.gc.ca/english/newcomers/after-health.asp">Health care in Canada</a></li>
+                <li><a href="http://www.kgh.on.ca/#">Kingston General Hospital</a></li>
+                <li><a href="https://myhealth.alberta.ca/Pages/default.aspx">My Health </a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_hospitals_in_Canada">List of Hospitals</a></li>
             </ul>
             
             <ul>
             	<li><h4>Jobs</h4></li>
-                <li><a href="http://www.workopolis.com/jobsearch/all-student-jobs" target="_blank">Student Jobs</a></li>
-                <li><a href="http://www.educationau-incanada.ca/educationau-incanada/study-etudes/work-travail.aspx?lang=eng" target="_blank">Jobs for International Students in Canada </a></li>
-                <li><a href="http://talentegg.ca/" target="_blank">Get to Work.</a></li>
-                <li><a href="http://www.pc.gc.ca/eng/agen/empl/empl04.aspx" target="_blank">Jobs at Parks Canada</a></li>
-                <li><a href="http://www.servicecanada.gc.ca/eng/audiences/youth/employment.shtml" target="_blank">Employment - For Youth and Students</a></li>
+                <li><a href="http://www.workopolis.com/jobsearch/all-student-jobs">Student Jobs</a></li>
+                <li><a href="http://www.educationau-incanada.ca/educationau-incanada/study-etudes/work-travail.aspx?lang=eng">Jobs for International Students in Canada </a></li>
+                <li><a href="http://talentegg.ca/">Get to Work.</a></li>
+                <li><a href="http://www.pc.gc.ca/eng/agen/empl/empl04.aspx">Jobs at Parks Canada</a></li>
+                <li><a href="http://www.servicecanada.gc.ca/eng/audiences/youth/employment.shtml">Employment - For Youth and Students</a></li>
             </ul>
             
             <ul class="endfooter">

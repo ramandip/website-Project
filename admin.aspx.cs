@@ -10,7 +10,7 @@ using System.Drawing;
 
 public partial class admin : System.Web.UI.Page
 {
-    SqlConnection cn = new SqlConnection("Data Source=phpp21-PC;Initial Catalog=Student;Integrated Security=True");
+    SqlConnection cn = new SqlConnection("Data Source=DELL-PC;Initial Catalog=comp231;Integrated Security=True");
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
@@ -21,7 +21,7 @@ public partial class admin : System.Web.UI.Page
     protected void BindEmployeeDetails()
     {
         cn.Open();
-        SqlCommand cmd = new SqlCommand("Select * from Register", cn);
+        SqlCommand cmd = new SqlCommand("Select * from register", cn);
         SqlDataAdapter da = new SqlDataAdapter(cmd);
         DataSet ds = new DataSet();
         da.Fill(ds);
@@ -71,10 +71,11 @@ public partial class admin : System.Web.UI.Page
     }
     protected void gvDetails_RowDeleting(object sender, GridViewDeleteEventArgs e)
     {
-        int userid = Convert.ToInt32(gvDetails.DataKeys[e.RowIndex].Values["Name"].ToString());
-        string username = gvDetails.DataKeys[e.RowIndex].Values["Email"].ToString();
+
+        int userid = Convert.ToInt32(gvDetails.DataKeys[e.RowIndex].Values["name"].ToString());
+        string username = gvDetails.DataKeys[e.RowIndex].Values["email"].ToString();
         cn.Open();
-        SqlCommand cmd = new SqlCommand("delete from Register where Email=" + username, cn);
+        SqlCommand cmd = new SqlCommand("delete from register where email=" + username, cn);
         int result = cmd.ExecuteNonQuery();
         cn.Close();
         if (result == 1)

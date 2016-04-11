@@ -14,11 +14,11 @@ public partial class Loginform : System.Web.UI.Page
     {
 
     }
-    SqlConnection cn = new SqlConnection("Data Source=phpp21-PC;Initial Catalog=Student;Integrated Security=True");
+    SqlConnection cn = new SqlConnection("Data Source=DELL-PC;Initial Catalog=comp231;Integrated Security=True");
     protected void Button1_Click(object sender, EventArgs e)
     {
         cn.Open();
-        SqlCommand cmd = new SqlCommand("select * from Register where Email =@email and Password=@password", cn);
+        SqlCommand cmd = new SqlCommand("select * from register where email =@email and password=@password", cn);
         cmd.Parameters.AddWithValue("@email", TextBox1.Text);
         cmd.Parameters.AddWithValue("@password", TextBox2.Text);
         SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -26,11 +26,15 @@ public partial class Loginform : System.Web.UI.Page
         da.Fill(dt);
         if (dt.Rows.Count > 0)
         {
-            Response.Redirect("index.aspx");
+            Response.Redirect("Service.aspx");
         }
+
+
         else
         {
             Response.Write("There is no record matching");
         }
+
+
     }
 }

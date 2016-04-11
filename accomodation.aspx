@@ -21,31 +21,18 @@ License: Creative Commons Attribution
 <body>
     <form id="form1" runat="server">
     <div id="container">
-    <header>
+        <header>
     	<h1><a href="index.aspx">International <span>Student Guide</span> System</a></h1>
         <%--<h2>your website slogan here</h2>--%>
     </header>
     <nav>
     	<ul>
-
-
-        	<li><a href="index.aspx">Home</a></li>
-              
-                        <li class="start selected"><a href="#">Accommodation</a></li>
-                        <li><a href="transportation.aspx#">Transportation</a></li>
-                        <li><a href="jobs.aspx#">Jobs</a></li>
-                        <li><a href="foodareas.aspx#">Food</a></li>
-                        
-                        <li><a href="healthcarecenters.aspx#">Health Centres</a></li>
-                        <li><a href="govtoffices.aspx#">Government</a></li>
-                        <li><a href="immigrationissues.aspx#">Immigration</a></li></ul>
-   
-            
-            
-            
-            
-            
-                 </ul>
+        	<li class="start selected"><a href="index.aspx">Home</a></li>
+            <li class=""><a href="Service.aspx">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li class="end"><a href="#">Contact</a></li>
+        </ul>
     </nav>
 
 	<img class="header-image" src="images/image.jpg" alt="Buildings" />
@@ -59,7 +46,7 @@ License: Creative Commons Attribution
 	    <article>
 				
 			
-			<h2><a id="Land" href="http://canada.accommodationforstudents.com/default.asp" target="_blank">Canada's No.1 Student Accommodation </a></h2>
+			<h2><a href="http://canada.accommodationforstudents.com/default.asp" target="_blank">Canada's No.1 Student Accommodation </a></h2>
 			<div class="article-info"><%--Posted on <time datetime="2016-02-24">24 Feb</time> by <a href="#" rel="author">Joe Bloggs</a>--%></div>
  
             <p><a href="http://canada.accommodationforstudents.com/default.asp" target="_blank">canada.accommodationforstudents.com</a> is the Canada's No.1 Student Accommodation Search Engine. We feature at the top of the search engines and have the most content of any student accommodation website. We are Officially Partnered with many other sites including Funky student, MSN Student, and Landlord Zone. Last year we were a Finalist at the New Media Age Awards for Best Use of Web Category.
@@ -80,11 +67,7 @@ Accommodation for Students was founded in June 2000 by two university students w
                 <li>Government Offices</li>
                 <li>Immigration Issues</li>
             </ul>--%>
-            <h3>More accomodation websites</h3>
-            <ul>
-                <li><a href="https://www.places4students.com/" target="_blank">Places 4 Student</a></li>
-                <li><a href="http://www.cmhomestayagency.com/" target="_blank">CM Homestay Agency</a></li>
-            </ul>
+
 		<a href="Service.aspx" class="button">Read more</a>
 		<a href="#" class="button">Comments</a>
 
@@ -123,16 +106,16 @@ The RentBoard.ca mobile web site allows you to search and view rental listings o
                <li>
                     <h4>Categories</h4>
                     <ul>
-                        <li><a href="index.aspx#Home" >Home Page</a></li>
-     
-                        <li><a href="#Land">Accommodation</a></li>
-                        <li><a href="transportation.aspx#Land">Transportation (Bus, Subways etc.)</a></li>
-                        <li><a href="jobs.aspx#Land">Jobs</a></li>
-                        <li><a href="foodareas.aspx#Land">Food areas (Restaurants, Hotels)</a></li>
-                        <li><a href="religiousinstitutes.aspx#Land">Religious Institutes</a></li>
-                        <li><a href="healthcarecenters.aspx#Land">Health care centres</a></li>
-                        <li><a href="govtoffices.aspx#Land">Government Offices</a></li>
-                        <li><a href="immigrationissues.aspx#Land">Immigration Issues</a></li>
+                        <li><a href="index.aspx" >Home Page</a></li>
+                       <li><a href="Service.aspx">Service</a></li>
+                        <li><a href="accomodation.aspx">Accommodation</a></li>
+                        <li><a href="transportation.aspx">Transportation (Bus, Subways etc.)</a></li>
+                        <li><a href="jobs.aspx">Jobs</a></li>
+                        <li><a href="foodareas.aspx">Food areas (Restaurants, Hotels)</a></li>
+                        <li><a href="religiousinstitutes.aspx">Religious Institutes</a></li>
+                        <li><a href="healthcarecenters.aspx">Health care centres</a></li>
+                        <li><a href="govtoffices.aspx">Government Offices</a></li>
+                        <li><a href="immigrationissues.aspx">Immigration Issues</a></li>
 
                     </ul>
                 </li>

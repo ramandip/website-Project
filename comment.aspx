@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true" CodeFile="Loginform.aspx.cs" Inherits="Loginform" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="comment.aspx.cs" Inherits="comment" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -17,7 +16,7 @@ License: Creative Commons Attribution
 //-->
 </head>
 <body>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
     <div id="container">
   <header>
     	<h1><a href="/">International <span>Student Guide</span> System</a></h1>
@@ -42,21 +41,22 @@ License: Creative Commons Attribution
             <p>&nbsp;</p>
 
             
-            
+            <h3>Form</h3>
 
             <fieldset>
-            
+                <legend>Form legend</legend>
                 <form action="#" method="get">
-                   
+                    <p><label for="name">Name:</label>
+                  <asp:Label ID="lbleditusr" runat="server" Text='<%#Eval("name") %>'/>
+                              
+                 <asp:Label ID="Label1" runat="server" Text='<%#Eval("name") %>'></asp:Label>
+                    <p><label for="email">Email:</label>
+                   <asp:Label ID="Label2" runat="server" Text='<%#Eval("email") %>'></asp:Label>
 
-    <asp:Label ID="Label1" runat="server" Text="Email Id:"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br /><br />
-        <asp:Label ID="Label2" runat="server" Text="Password:"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br /><br />
-        <asp:Button ID="Button1" runat="server" Text="Login" onclick="Button1_Click" />
+                    <p><label for="message">Message:</label>
+                   <asp:Label ID="Label3" runat="server" Text='<%#Eval("message") %>'></asp:Label>
 
-
-
+                  
                 </form>
             </fieldset>
             

@@ -27,17 +27,11 @@ License: Creative Commons Attribution
     </header>
     <nav>
     	<ul>
-        	<li><a href="index.aspx">Home</a></li>
-   <li><a href="accomodation.aspx#">Accommodation</a></li>
-                        <li class="start selected"><a href="transportation.aspx#">Transportation</a></li>
-                        <li><a href="jobs.aspx#">Jobs</a></li>
-                        <li><a href="foodareas.aspx#">Food</a></li>
-                        
-                        <li><a href="healthcarecenters.aspx#">Health Centres</a></li>
-                        <li><a href="govtoffices.aspx#">Government</a></li>
-                        <li><a href="immigrationissues.aspx#">Immigration</a></li></ul>
-   
-            
+        	<li class="start selected"><a href="index.aspx">Home</a></li>
+            <li class=""><a href="Service.aspx">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li class="end"><a href="#">Contact</a></li>
         </ul>
     </nav>
 
@@ -52,7 +46,7 @@ License: Creative Commons Attribution
 	    <article>
 				
 			
-			<h2 id="Land"><a href="https://www.tc.gc.ca/eng/menu.htm" target="_blank">Transport Canada </a></h2>
+			<h2><a href="https://www.tc.gc.ca/eng/menu.htm" target="_blank">Transport Canada </a></h2>
 			<div class="article-info"><%--Posted on <time datetime="2016-02-24">24 Feb</time> by <a href="#" rel="author">Joe Bloggs</a>--%></div>
  
             <p>Transport Canada is responsible for transportation policies and programs. It promotes safe, secure, efficient and environmentally-responsible transportation.<br />
@@ -112,16 +106,16 @@ Along with its roles as a regulator and an aeronautical authority, the Agency wo
                <li>
                     <h4>Categories</h4>
                     <ul>
-                        <li><a href="index.aspx#Home" >Home Page</a></li>
-                       <li><a href="Service.aspx#Land">Service</a></li>
-                        <li><a href="accomodation.aspx#Land">Accommodation</a></li>
-                        <li><a href="transportation.aspx#Land">Transportation (Bus, Subways etc.)</a></li>
-                        <li><a href="jobs.aspx#Land">Jobs</a></li>
-                        <li><a href="foodareas.aspx#Land">Food areas (Restaurants, Hotels)</a></li>
-                        <li><a href="religiousinstitutes.aspx#Land">Religious Institutes</a></li>
-                        <li><a href="healthcarecenters.aspx#Land">Health care centres</a></li>
-                        <li><a href="govtoffices.aspx#Land">Government Offices</a></li>
-                        <li><a href="immigrationissues.aspx#Land">Immigration Issues</a></li>
+                        <li><a href="index.aspx" >Home Page</a></li>
+                       <li><a href="Service.aspx">Service</a></li>
+                        <li><a href="accomodation.aspx">Accommodation</a></li>
+                        <li><a href="transportation.aspx">Transportation (Bus, Subways etc.)</a></li>
+                        <li><a href="jobs.aspx">Jobs</a></li>
+                        <li><a href="foodareas.aspx">Food areas (Restaurants, Hotels)</a></li>
+                        <li><a href="religiousinstitutes.aspx">Religious Institutes</a></li>
+                        <li><a href="healthcarecenters.aspx">Health care centres</a></li>
+                        <li><a href="govtoffices.aspx">Government Offices</a></li>
+                        <li><a href="immigrationissues.aspx">Immigration Issues</a></li>
 
                     </ul>
                 </li>
